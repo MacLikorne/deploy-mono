@@ -4,10 +4,12 @@
 
 ### Récupérer le projet
 Ouvrir un invité de commande et taper la commande :
+
     `git clone --recurse-submodules https://github.com/MacLikorne/deploy-mono.git`
 
 ### Déployer le projet
 Se rendre dans le dossier sus-téléchargé et taper:
+
     `docker-compose up --build`
 
 ### Afficher le projet
