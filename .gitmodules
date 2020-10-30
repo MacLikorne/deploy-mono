@@ -1,0 +1,6 @@
+[submodule "front-full"]
+	path = front-full
+	url = https://github.com/MacLikorne/front-full.git
+[submodule "back-28dl"]
+	path = back-28dl
+	url = https://github.com/MacLikorne/back-28dl.git

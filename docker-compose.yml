@@ -4,32 +4,21 @@ services:
     back-28dl:
         build: ./back-28dl
         ports:
-            - 3000:3000
-        networks:
-            - 28dl
+            - 3001:3001
 
-    # front-28dl:
-    #     build: ./front-28dl
-    #     ports:
-    #         - 81:81
-    #     networks: 
-    #         - 28dl
-    #         - front
+    front-full:
+        build: ./front-full
+        ports:
+            - 80:80
+
 
     # back-stargate:
     #     build: ./back-stargate
     #     ports:
-    #         -
-    #     networks: 
-    #         - stargate
+    #         - 3000:3000
 
-    # front-stargate:
-    #     build: ./front-stargate
-    #     ports:
-    #         - 83:83
-    #     networks: 
-    #         - stargate
-    #         - front
+
+
 
     # back-magicbus:
     #     build: ./noc-back-magicbus
@@ -47,24 +36,3 @@ services:
     #     networks: 
     #         - magicbus
         
-
-    # front-magicbus:
-    #     build: ./front-magicbus
-    #     ports:
-    #         - 82:82
-    #     networks: 
-    #         - magicbus
-    #         - front
-
-    # front-container:
-    #     build: ./back-28dl
-    #     ports:
-    #         - 80:80
-    #     networks: 
-    #         - front
-
-networks: 
-    28dl:
-    stargate:
-    magicbus:
-    front:
