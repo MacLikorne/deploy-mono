@@ -1,0 +1,70 @@
+version: '3'
+
+services: 
+    back-28dl:
+        build: ./back-28dl
+        ports:
+            - 3000:3000
+        networks:
+            - 28dl
+
+    # front-28dl:
+    #     build: ./front-28dl
+    #     ports:
+    #         - 81:81
+    #     networks: 
+    #         - 28dl
+    #         - front
+
+    # back-stargate:
+    #     build: ./back-stargate
+    #     ports:
+    #         -
+    #     networks: 
+    #         - stargate
+
+    # front-stargate:
+    #     build: ./front-stargate
+    #     ports:
+    #         - 83:83
+    #     networks: 
+    #         - stargate
+    #         - front
+
+    # back-magicbus:
+    #     build: ./noc-back-magicbus
+    #     ports:
+    #         - 
+    #     networks: 
+    #         - magicbus
+    #     depends_on: 
+    #      - db-magicbus
+
+    # db-magicbus:
+    #     image: mongo
+    #     ports:
+    #         -27017:27017
+    #     networks: 
+    #         - magicbus
+        
+
+    # front-magicbus:
+    #     build: ./front-magicbus
+    #     ports:
+    #         - 82:82
+    #     networks: 
+    #         - magicbus
+    #         - front
+
+    # front-container:
+    #     build: ./back-28dl
+    #     ports:
+    #         - 80:80
+    #     networks: 
+    #         - front
+
+networks: 
+    28dl:
+    stargate:
+    magicbus:
+    front:
