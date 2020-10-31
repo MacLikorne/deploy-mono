@@ -13,4 +13,4 @@ Se rendre dans le dossier sus-téléchargé et taper:
     docker-compose up --build
 
 ### Afficher le projet
-Ouvrir un navigateur web et se rendre sur l'IP de votre docker avec le port pour le HTTPS (443)
+Ouvrir un navigateur web et se rendre sur l'IP de votre docker.
