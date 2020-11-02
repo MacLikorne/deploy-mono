@@ -9,7 +9,7 @@ services:
     front-full:
         build: ./front-full
         ports:
-            - 443:443
+            - 80:80
 
 
     # back-stargate:
