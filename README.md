@@ -18,7 +18,6 @@ Ouvrir un navigateur web et se rendre sur l'IP de votre docker.
 ---
 
 ###### Todos
-* finir stargate
 * finir magicbus
 * mettre en place des tests
 * passer en micro frontend
