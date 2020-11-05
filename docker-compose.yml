@@ -11,11 +11,10 @@ services:
         ports:
             - 80:80
 
-
-    # back-stargate:
-    #     build: ./back-stargate
-    #     ports:
-    #         - 3000:3000
+    back-stargate:
+        build: ./back-stargate
+        ports:
+            - 3002:3002
 
 
 

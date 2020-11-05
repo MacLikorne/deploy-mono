@@ -4,3 +4,6 @@
 [submodule "back-28dl"]
 	path = back-28dl
 	url = https://github.com/MacLikorne/back-28dl.git
+[submodule "back-stargate"]
+	path = back-stargate
+	url = https://github.com/MacLikorne/back-stargate.git
