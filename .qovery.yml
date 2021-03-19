@@ -1,0 +1,11 @@
+---
+application:
+  name: "deploy-mono"
+  project: "testproj"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-deploy-mono"
+  routes:
+  - application_name: "deploy-mono"
+    paths:
+    - "/*"
